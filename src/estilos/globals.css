@@ -4,28 +4,35 @@ body {
   margin: 0;
   display: flex;
   /* place-items: center; */
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  min-width: 320px; /* Tamanho mínimo de tela*/
+  max-width: 1000px;
+  min-height: 100vh; /* Tamanho mínimo da altura*/
+  border: 13px solid rgb(200, 42, 206); 
+  box-sizing: border-box; 
+  align-items: center;
+  justify-content: center;
 }
 
  h1 {
   font-size: 28px;
   font-weight: bold;
   line-height: 1.1;
-  margin:20px;
+  margin: 16px 0;
 }
 
 h2 {
   font-size: 23px;
   font-weight: bold;
   line-height: 1.1;
-  margin:10px;
+  margin:10px 0;
 }
 
 h3 {
   font-size: 19px;
   font-weight: bold;
   line-height: 1.1;
+  margin:6px 0;
 }
 
 label {
